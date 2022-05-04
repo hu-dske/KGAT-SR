@@ -7,7 +7,7 @@ Q. Zhang, Z. Xu, H. Liu and Y. Tang, "KGAT-SR: Knowledge-Enhanced Graph Attentio
 
 In essence, we used PyTorch to implement KGAT-SR based on FGNN [by R. Qiu et al., CIKM'19, https://doi.org/10.1145/3357384.3358010] and KGAT [by X. Wang  et al., KDD'19, https://doi.org/10.1145/3292500.3330989]. Our main modifications include: i) Python code of the KESG Generation layer was produced by modifying the attentive embedding propagation layers in KGAT; ii) The Session Embedding Generation layer was implemented by replacing the Readout function in FGNN with SAGPool [by J. Lee et al., ICML'19, http://proceedings.mlr.press/v97/lee19c.html].
 
-Two real-world datasets (MovieLens 1M and LFM-1b) were used to empirically evaluate the performance of KGAT-SR, and the experimental results show that KGAT-SR significantly outperforms the state-of-the-art models for next item recommendation in terms of recommendation accuracy. Detailed information about the experimental datasets and the comparison methods are given below.
+Two real-world datasets (MovieLens 1M and LFM-1b) were used to empirically evaluate the performance of KGAT-SR, and the experimental results show that KGAT-SR significantly outperforms the state-of-the-art models for next item recommendation in terms of recommendation accuracy. Detailed information about the experimental datasets and the comparison models are given below.
 
 Experimental Datasets
 --
