@@ -26,29 +26,29 @@ References:
 Comparison Models
 --
 * **BPR-MF** is a Bayesian personalized ranking (BPR) optimized matrix factorization (MF) model achieved by applying LearnBPR (a stochastic gradient descent algorithm based on bootstrap sampling) to MF.<br>
-*`paper:`* Steffen Rendle, Christoph Freudenthaler, Zeno Gantner, Lars Schmidt-Thieme: BPR: Bayesian Personalized Ranking from Implicit Feedback. UAI 2009: 452-461. http://arxiv.org/abs/1205.2618<br>
-*`code:`* https://github.com/xiangwang1223/knowledge_graph_attention_network/tree/master/Model
+*`Paper:`* Steffen Rendle, Christoph Freudenthaler, Zeno Gantner, Lars Schmidt-Thieme: BPR: Bayesian Personalized Ranking from Implicit Feedback. UAI 2009: 452-461. http://arxiv.org/abs/1205.2618<br>
+*`Code:`* https://github.com/xiangwang1223/knowledge_graph_attention_network/tree/master/Model
 
 * **FPMC** is the factorized personalized Markov chains model which combines both a common Markov chain and the normal matrix factorization model.<br>
-*`paper:`* Steffen Rendle, Christoph Freudenthaler, Lars Schmidt-Thieme: Factorizing personalized Markov chains for next-basket recommendation. WWW 2010: 811-820. https://doi.org/10.1145/1772690.1772773<br>
-*`code:`* https://github.com/khesui/FPMC
+*`Paper:`* Steffen Rendle, Christoph Freudenthaler, Lars Schmidt-Thieme: Factorizing personalized Markov chains for next-basket recommendation. WWW 2010: 811-820. https://doi.org/10.1145/1772690.1772773<br>
+*`Code:`* https://github.com/khesui/FPMC
 
 * **GRU4Rec** is an early and well-known sequential recommendation model based on RNN.<br>
-*`paper:`* Balázs Hidasi, Alexandros Karatzoglou, Linas Baltrunas, Domonkos Tikk: Session-based Recommendations with Recurrent Neural Networks. ICLR (Poster) 2016. http://arxiv.org/abs/1511.06939<br>
-*`code:`* https://github.com/hidasib/GRU4Rec
+*`Paper:`* Balázs Hidasi, Alexandros Karatzoglou, Linas Baltrunas, Domonkos Tikk: Session-based Recommendations with Recurrent Neural Networks. ICLR (Poster) 2016. http://arxiv.org/abs/1511.06939<br>
+*`Code:`* https://github.com/hidasib/GRU4Rec
 
 * **STAMP** is a hybrid model that constructs two network structures to capture users’ general preferences and current interests.<br>
-*`paper:`* Qiao Liu, Yifu Zeng, Refuoe Mokhosi, Haibin Zhang: STAMP: Short-Term Attention/Memory Priority Model for Session-based Recommendation. KDD 2018: 1831-1839. https://doi.org/10.1145/3219819.3219950<br>
-*`code:`* https://github.com/uestcnlp/STAMP
+*`Paper:`* Qiao Liu, Yifu Zeng, Refuoe Mokhosi, Haibin Zhang: STAMP: Short-Term Attention/Memory Priority Model for Session-based Recommendation. KDD 2018: 1831-1839. https://doi.org/10.1145/3219819.3219950<br>
+*`Code:`* https://github.com/uestcnlp/STAMP
 
 * **KSR** incorporates external knowledge into sequential recommender via key-value memory network.<br>
-*`paper:`* Jin Huang, Wayne Xin Zhao, Hongjian Dou, Ji-Rong Wen, Edward Y. Chang: Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. https://doi.org/10.1145/3209978.3210017<br>
-*`code:`* https://github.com/RUCDM/KSR
+*`Paper:`* Jin Huang, Wayne Xin Zhao, Hongjian Dou, Ji-Rong Wen, Edward Y. Chang: Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks. SIGIR 2018: 505-514. https://doi.org/10.1145/3209978.3210017<br>
+*`Code:`* https://github.com/RUCDM/KSR
 
 * **SR-GNN** represents the session sequence as a session graph and uses GNN to model complex transitions among items.<br>
-*`paper:`* Shu Wu, Yuyuan Tang, Yanqiao Zhu, Liang Wang, Xing Xie, Tieniu Tan: Session-Based Recommendation with Graph Neural Networks. AAAI 2019: 346-353. https://doi.org/10.1609/aaai.v33i01.3301346<br>
-*`code:`* https://github.com/CRIPAC-DIG/SR-GNN
+*`Paper:`* Shu Wu, Yuyuan Tang, Yanqiao Zhu, Liang Wang, Xing Xie, Tieniu Tan: Session-Based Recommendation with Graph Neural Networks. AAAI 2019: 346-353. https://doi.org/10.1609/aaai.v33i01.3301346<br>
+*`Code:`* https://github.com/CRIPAC-DIG/SR-GNN
 
 * **FGNN** collaboratively considers the sequential order and the latent order in the session graph, and formulates SR as a graph classification problem.<br>
-*`paper:`* Ruihong Qiu, Jingjing Li, Zi Huang, Hongzhi Yin: Rethinking the Item Order in Session-based Recommendation with Graph Neural Networks. CIKM 2019: 579-588. https://doi.org/10.1145/3357384.3358010<br>
-*`code:`* https://github.com/RuihongQiu/FGNN
+*`Paper:`* Ruihong Qiu, Jingjing Li, Zi Huang, Hongzhi Yin: Rethinking the Item Order in Session-based Recommendation with Graph Neural Networks. CIKM 2019: 579-588. https://doi.org/10.1145/3357384.3358010<br>
+*`Code:`* https://github.com/RuihongQiu/FGNN
